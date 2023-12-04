@@ -5,13 +5,13 @@
 <meta name="viewport" content="
 width=device-width, initial-scale=1">
 <title>Галерея</title>
-<link rel="stylesheet" type="text/css" href="css/css.css"><img src="[img/1.jpg](https://github.com/makiemka/makiemka.github.io/blob/main/img/1.jpg)" alt="текст_альтернативного_описания">
+<link rel="stylesheet" type="text/css" href="css/css.css">
 </head>
 <body>
 <main class="main">
 <h1 class="heading">Фото</h1>
 <a href=src="[img/1.jpg](https://github.com/makiemka/makiemka.github.io/blob/main/img/1.jpg)" class="img_link">@</a>
-<a href="img/2.jpg" class="img_link">@</a>
+<a href="img/2.jpg" class="img_link"><img src="img/2.jpg" alt="текст_альтернативного_описания"></a>
 ><a href="img/3.jpg" class="img_link">@</a>
 ><a
 href="img/4.jpg" class="img_link">@</a>
