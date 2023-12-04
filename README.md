@@ -8,7 +8,6 @@
 </head>
 <body>
 <main class="main">
-<h1 class="heading">Фото</h1>
 <div class="gallery">
   <h1 class="heading">Фото</h1>
   <a target="_blank" href="img/1.jpg">
