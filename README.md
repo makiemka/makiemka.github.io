@@ -1,33 +1,76 @@
 # makiemka.github.io
-<html lang="ru">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Галерея</title>
-<link rel="stylesheet" type="text/css" href="css/css.css">
-</head>
-<main class="main">
 <div class="gallery">
-  <h1 class="heading">Фото</h1>
-  <a target="_blank" href="img/1.jpg">
-    <img src="img/1.jpg">
-  </a>
-  <a target="_blank" href="img/2.jpg">
-    <img src="img/2.jpg">
-  </a>
-  <a target="_blank" href="img/3.jpg">
-    <img src="img/3.jpg">
-  </a>
-    <a target="_blank" href="img/4.jpg">
-    <img src="img/4.jpg">
-  </a>
-  <a target="_blank" href="img/5.jpg">
-    <img src="img/5.jpg">
-  </a>
-  <a target="_blank" href="img/6.jpg">
-    <img src="img/6.jpg">
-</main>
-</html>
-  </a>
+  <div class="gallery-item">
+    <img src="img/1.jpg" alt="текст_альтернативного_описания">
+  </div>
+  <div class="gallery-item">
+    <img src="img/2.jpg" alt="текст_альтернативного_описания">
+  </div>
+  <div class="gallery-item">
+    <img src="img/3.jpg" alt="текст_альтернативного_описания">
+  </div>
+  <!-- Добавьте еще картинок, если необходимо -->
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+  $('.gallery-item').click(function() {
+    var imgSrc = $(this).find('img').attr('src');
+    var imgAlt = $(this).find('img').attr('alt');
+    var imgTitle = $(this).find('img').attr('title');
+    var imgDesc = $(this).find('img').attr('description');
+
+    $('#lightbox').fadeIn();
+    $('#lightbox img').attr('src', imgSrc);
+    $('#lightbox .caption').html('<h2>' + imgTitle + '</h2><p>' + imgDesc + '</p>');
+  });
+
+  $('#lightbox').click(function() {
+    $(this).fadeOut();
+  });
+});
+</script>
+
+<style>
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-item {
+  flex: 1 0 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+#lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+#lightbox .caption {
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+}
+</style>
