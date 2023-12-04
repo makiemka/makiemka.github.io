@@ -2,10 +2,9 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="
-width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Галерея</title>
-<link rel="stylesheet" type="text/css" href="css/css.css">
+<link rel="stylesheet" type="text/css" href="css/css.min.css">
 </head>
 <body>
 <main class="main">
@@ -21,7 +20,7 @@ width=device-width, initial-scale=1">
 <a href="img/9.jpg" class="img_link"></a>
 <a href="img/10.jpg" class="img_link"></a>
 <a href="img/11.jpg" class="img_link"></a>
-><a href="img/12.jpg" class="img_link">/a>
+<a href="img/12.jpg" class="img_link"></a>
 </main>
 </body>
 </html>
