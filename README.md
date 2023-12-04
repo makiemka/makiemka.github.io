@@ -9,7 +9,7 @@
 </head>
 <body>
 	<main class="main">
-		<h1 class='heading'>Герои доты 2</h1>
+		<h1 class='heading'>Коты</h1>
 		<a href='img/1.jpg' class='img_link'><div class="item" style="background-image:url(img/1.jpg)"></div></a>
 		<a href='img/2.jpg' class='img_link'><div class="item" style="background-image:url(img/2.jpg)"></div></a>
 		<a href='img/3.jpg' class='img_link'><div class="item" style="background-image:url(img/3.jpg)"></div></a>
