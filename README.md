@@ -15,14 +15,13 @@ width=device-width, initial-scale=1">
 <a href="img/3.jpg" class="img_link"> <img src="img/3.jpg" alt=></a>
 <a href="img/4.jpg" class="img_link"> <img src="img/4.jpg" alt=></a>
 <a href="img/5.jpg" class="img_link"></a>
-<a href="img/6.jpg" class="img_link">@</a>
-<a href="img/7.jpg" class="img_link">@</a>
+<a href="img/6.jpg" class="img_link"></a>
+<a href="img/7.jpg" class="img_link"></a>
 <a href="img/8.jpg" class="img_link"></a>
-== $0
-<a href="img/9.jpg" class="img_link">@</a>
-<a href="img/10.jpg" class="img_link">…</a>
-<a href="img/11.jpg" class="img_link">@</a>
-><a href="img/12.jpg" class="img_link">@</a>
+<a href="img/9.jpg" class="img_link"></a>
+<a href="img/10.jpg" class="img_link"></a>
+<a href="img/11.jpg" class="img_link"></a>
+><a href="img/12.jpg" class="img_link">/a>
 </main>
 </body>
 </html>
