@@ -1,39 +1,27 @@
-<!DOCTYPE html>
-<html>
+# makiemka.github.io
+<html lang="ru">
 <head>
-  <title>My Gallery</title>
-  <style>
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-
-    .gallery-item {
-      flex: 1 0 200px;
-      margin: 10px;
-      text-align: center;
-    }
-
-    .gallery-item img {
-      width: 100%;
-      height: auto;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="
+width=device-width, initial-scale=1">
+<title>Галерея</title>
+<link rel="stylesheet" type="text/css" href="css/css.css">
 </head>
 <body>
-  <h1>My Gallery</h1>
-  <div class="gallery">
-    <div class="gallery-item">
-      <img src="img/1.jpg" alt="Image 1">
-    </div>
-    <div class="gallery-item">
-      <img src="img/2.jpg" alt="Image 2">
-    </div>
-    <div class="gallery-item">
-      <img src="img/3.jpg" alt="Image 3">
-    </div>
-    <!-- Добавьте еще картинок, если необходимо -->
-  </div>
+<main class="main">
+<h1 class="heading">Фото</h1>
+<a href="img/1.jpg" class="img_link"> <img src="img/1.jpg" alt=></a>
+<a href="img/2.jpg" class="img_link"> <img src="img/2.jpg" alt=></a>
+<a href="img/3.jpg" class="img_link"> <img src="img/3.jpg" alt=></a>
+<a href="img/4.jpg" class="img_link"> <img src="img/4.jpg" alt=></a>
+<a href="img/5.jpg" class="img_link"></a>
+<a href="img/6.jpg" class="img_link"></a>
+<a href="img/7.jpg" class="img_link"></a>
+<a href="img/8.jpg" class="img_link"></a>
+<a href="img/9.jpg" class="img_link"></a>
+<a href="img/10.jpg" class="img_link"></a>
+<a href="img/11.jpg" class="img_link"></a>
+><a href="img/12.jpg" class="img_link">/a>
+</main>
 </body>
 </html>
