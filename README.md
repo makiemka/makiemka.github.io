@@ -1,32 +1,18 @@
-# makiemka.github.io
-<html lang="ru">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="
-	width=device-width, initial-scale=1">
-	<title> Галерея </title>
-	<link rel="stylesheet"  type="text/css" href="css/css.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<main class="main">
-		<h1 class='heading'>фото</h1>
-		 <a target="_blank" href="img/1.jpg">
-    <img src="img/1.jpg">
-  </a>
-  <a target="_blank" href="img/2.jpg">
-    <img src="img/2.jpg">
-  </a>
-  <a target="_blank" href="img/3.jpg">
-    <img src="img/3.jpg">
-  </a>
-    <a target="_blank" href="img/4.jpg">
-    <img src="img/4.jpg">
-  </a>
-  <a target="_blank" href="img/5.jpg">
-    <img src="img/5.jpg">
-  </a>
-  <a target="_blank" href="img/6.jpg">
-    <img src="img/6.jpg">
-	</main>
+    <div class="gallery">
+        <img src="image1.jpg" alt="Image 1">
+        <img src="image2.jpg" alt="Image 2">
+        <img src="image3.jpg" alt="Image 3">
+        <img src="image4.jpg" alt="Image 4">
+        <img src="image5.jpg" alt="Image 5">
+        <img src="image6.jpg" alt="Image 6">
+        <img src="image7.jpg" alt="Image 7">
+        <img src="image8.jpg" alt="Image 8">
+        <img src="image9.jpg" alt="Image 9">
+    </div>
 </body>
 </html>
