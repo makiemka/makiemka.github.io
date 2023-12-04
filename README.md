@@ -28,7 +28,9 @@ width=device-width, initial-scale=1">
   </a>
   <a target="_blank" href="img/6.jpg">
     <img src="img/6.jpg">
-  </body>
+</main>
+</body>
+</html>
   </a>
 </div>
 
