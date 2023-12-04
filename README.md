@@ -1,10 +1,15 @@
+# makiemka.github.io
+<html lang="ru">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="
 width=device-width, initial-scale=1">
-<title> "Галерея" </title>
+<title>Галерея</title>
 <link rel="stylesheet" type="text/css" href="css/css.css">
 </head>
+<body>
+<main class="main">
+<h1 class="heading">Фото</h1>
 <div class="gallery">
   <h1 class="heading">Фото</h1>
   <a target="_blank" href="img/1.jpg">
@@ -24,6 +29,7 @@ width=device-width, initial-scale=1">
   </a>
   <a target="_blank" href="img/6.jpg">
     <img src="img/6.jpg">
+  </body>
   </a>
 </div>
 
