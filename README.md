@@ -6,6 +6,7 @@ width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/css.css">
 </head>
 <div class="gallery">
+  <h1 class="heading">Фото</h1>
   <a target="_blank" href="img/1.jpg">
     <img src="img/1.jpg">
   </a>
