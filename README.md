@@ -8,7 +8,6 @@
   <a target="_blank" href="img/3.jpg">
     <img src="img/3.jpg">
   </a>
-  <!-- Добавьте еще картинок, если необходимо -->
 </div>
 
 <style>
