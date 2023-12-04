@@ -1,18 +1,28 @@
-<html>
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-    <title>Галерея</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="
+	width=device-width, initial-scale=1">
+	<title>Галерея</title>
+	<link rel="stylesheet"  type="text/css" href="css/css.css">
 </head>
 <body>
-    <div class="gallery">
-        <img src="img/1.jpg" alt="img/1">
-        <img src="img/2.jpg" alt="img/2">
-        <img src="img/3.jpg" alt="img/3">
-        <img src="img/4.jpg" alt="img/4">
-        <img src="img/5.jpg" alt="img/5">
-        <img src="img/6.jpg" alt="img/6">
-        <img src="img/7.jpg" alt="img/7">
-        <img src="img/8.jpg" alt="img/8">
-    </div>
+	<main class="main">
+		<h1 class='heading'>Герои доты 2</h1>
+		<a href='img/1.jpg' class='img_link'><div class="item" style="background-image:url(img/1.jpg)"></div></a>
+		<a href='img/2.jpg' class='img_link'><div class="item" style="background-image:url(img/2.jpg)"></div></a>
+		<a href='img/3.jpg' class='img_link'><div class="item" style="background-image:url(img/3.jpg)"></div></a>
+		<a href='img/4.jpg' class='img_link'><div class="item" style="background-image:url(img/4.jpg)"></div></a>
+		<a href='img/5.jpg' class='img_link'><div class="item" style="background-image:url(img/5.jpg)"></div></a>
+		<a href='img/6.jpg' class='img_link'><div class="item" style="background-image:url(img/6.jpg)"></div></a>
+		<a href='img/7.jpg' class='img_link'><div class="item" style="background-image:url(img/7.jpg)"></div></a>
+		<a href='img/8.jpg' class='img_link'><div class="item" style="background-image:url(img/8.jpg)"></div></a>
+		<a href='img/9.jpg' class='img_link'><div class="item" style="background-image:url(img/9.jpg)"></div></a>
+		<a href='img/10.jpg' class='img_link'><div class="item" style="background-image:url(img/10.jpg)"></div></a>
+		<a href='img/11.jpg' class='img_link'><div class="item" style="background-image:url(img/11.jpg)"></div></a>
+		<a href='img/12.jpg' class='img_link'><div class="item" style="background-image:url(img/12.jpg)"></div></a>
+		<div class="author">&copy; MKO 2023</div>
+	</main>
 </body>
 </html>
