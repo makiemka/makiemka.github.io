@@ -12,7 +12,7 @@ width=device-width, initial-scale=1">
 <h1 class="heading">Фото</h1>
 <a href="img/1.jpg" class="img_link"> <img src="img/1.jpg" alt=></a>
 <a href="img/2.jpg" class="img_link"> <img src="img/2.jpg" alt=></a>
-<a href="img/3.jpg" class="img_link"><img src="img/3.jpg" alt=></a>
+<a href="img/3.jpg" class="img_link"> <img src="img/3.jpg" alt=></a>
 <a href="img/4.jpg" class="img_link">@</a>
 <a href="img/5.jpg" class="img_link"></a>
 <a href="img/6.jpg" class="img_link">@</a>
