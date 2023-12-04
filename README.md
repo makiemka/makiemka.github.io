@@ -10,9 +10,9 @@ width=device-width, initial-scale=1">
 <body>
 <main class="main">
 <h1 class="heading">Фото</h1>
-<a href=img1.jpg to img/1.jpg class="img_link">@</a>
+<a href="img/1.jpg" class="img_link">@</a>
 <a href="img/2.jpg" class="img_link">@</a>
-><a href=img/3.jpg class="img_link">@</a>
+><a href="img/3.jpg" class="img_link">@</a>
 ><a
 href="img/4.jpg" class="img_link">@</a>
 <a href="img/5.jpg" class="img_link"></a>
