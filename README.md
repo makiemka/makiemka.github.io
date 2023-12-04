@@ -8,11 +8,10 @@
         <img src="img/2.jpg" alt="img/2">
         <img src="img/3.jpg" alt="img/3">
         <img src="img/4.jpg" alt="img/4">
-        <img src="image5.jpg" alt="Image 5">
-        <img src="image6.jpg" alt="Image 6">
-        <img src="image7.jpg" alt="Image 7">
-        <img src="image8.jpg" alt="Image 8">
-        <img src="image9.jpg" alt="Image 9">
+        <img src="img/5.jpg" alt="img/5">
+        <img src="img/6.jpg" alt="img/6">
+        <img src="img/7.jpg" alt="img/7">
+        <img src="img/8.jpg" alt="img/8">
     </div>
 </body>
 </html>
