@@ -21,7 +21,8 @@ width=device-width, initial-scale=1">
 <a href="img/9.jpg" class="img_link"></a>
 <a href="img/10.jpg" class="img_link"></a>
 <a href="img/11.jpg" class="img_link"></a>
-><a href="img/12.jpg" class="img_link">/a>
+<a href="img/12.jpg" class="img_link">
+</a>
 </main>
 </body>
 </html>
