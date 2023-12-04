@@ -10,21 +10,3 @@
   </a>
 </div>
 
-<style>
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.gallery a {
-  flex: 1 0 200px;
-  margin: 10px;
-  text-align: center;
-}
-
-.gallery img {
-  width: 100%;
-  height: auto;
-}
-</style>
