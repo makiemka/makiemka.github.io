@@ -6,7 +6,6 @@
 <title>Галерея</title>
 <link rel="stylesheet" type="text/css" href="css/css.css">
 </head>
-<body>
 <main class="main">
 <div class="gallery">
   <h1 class="heading">Фото</h1>
@@ -28,7 +27,6 @@
   <a target="_blank" href="img/6.jpg">
     <img src="img/6.jpg">
 </main>
-</body>
 </html>
   </a>
 </div>
